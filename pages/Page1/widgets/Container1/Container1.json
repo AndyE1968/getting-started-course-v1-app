@@ -81,7 +81,7 @@
     "parent",
     "group"
   ],
-  "shouldScrollContents": true,
+  "shouldScrollContents": false,
   "tags": [
     "Layout"
   ],
