@@ -12,9 +12,6 @@
       "key": "truncateButtonColor"
     },
     {
-      "key": "fontFamily"
-    },
-    {
       "key": "borderRadius"
     },
     {
@@ -31,8 +28,8 @@
     }
   ],
   "dynamicTriggerPathList": [],
-  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1rem",
+  "fontFamily": "Poppins",
+  "fontSize": "1.25rem",
   "fontStyle": "",
   "hideCard": false,
   "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -65,7 +62,7 @@
   ],
   "text": "{{currentItem.title}}",
   "textAlign": "LEFT",
-  "textColor": "{{currentItem.completed?'#aaa; text-decoration: line-through;':'#231F20; text-decoration: none;'}}",
+  "textColor": "{{currentItem.completed?'#aaa; text-decoration: line-through;':'#000000; text-decoration: none;'}}",
   "textStyle": "HEADING",
   "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
